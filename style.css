@@ -22,8 +22,6 @@ body{
     width: 1000px;
     margin: 0 auto;
 }
-
-
 .header{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -55,4 +53,25 @@ body{
     padding: 10px 15px;
     display: block;
     font-size: 20px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 100px;
+}
+.text h1{
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.text p{
+    
+}
+.text button{
+    margin-top: 20px;
+    background-color: rgb(237, 121, 13);
+    padding: 10px;
+}
+
+.image{
+    padding: 40px;
 }
