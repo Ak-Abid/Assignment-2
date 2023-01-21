@@ -3,6 +3,17 @@
     padding: 0;
     box-sizing: border-box;
 }
+img{
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+.fix::before{
+    content: "";
+    display: table;
+    clear: both;
+}
 body{
     font-size: 14px;
     line-height: 22px;
@@ -11,10 +22,17 @@ body{
     width: 1000px;
     margin: 0 auto;
 }
-ul{text-decoration: none;}
 
-.header{}
-.logo{}
+
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.logo{
+    float: left;
+    width: 250px;
+    margin-right: 30px;
+}
 .logo h3{
     padding: 25px;
     font-size: 30px;
@@ -24,9 +42,15 @@ ul{text-decoration: none;}
     width: 720px;
     display: block;
 }
-.menu ul{}
+.menu ul{
+    text-align: right;
+    margin-top: 14px;
+}
 .menu ul li{
     display: inline-block;
+}
+.menu ul li a{
+    color: #333;
     text-decoration: none;
     padding: 10px 15px;
     display: block;
