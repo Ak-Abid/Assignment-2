@@ -75,3 +75,29 @@ body{
 .image{
     padding: 40px;
 }
+.heding{
+    text-align: center;
+    margin-top: 100px;
+}
+.heding h1{
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.icon{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.icon img{
+    height: 50px;
+    width: 150px;
+    margin: 20px;
+}
+.copy{
+    height: 100px;
+    background-color: bisque;
+    text: center;
+}
+.copy p{
+    text-align: center;
+    top: 50px;
+}
